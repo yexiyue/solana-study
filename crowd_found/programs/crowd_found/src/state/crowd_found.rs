@@ -1,7 +1,7 @@
 use anchor_lang::prelude::*;
 
 #[account]
-#[derive(Debug, InitSpace)]
+#[derive(InitSpace)]
 pub struct CrowdFound {
     #[max_len(50)]
     pub title: String,
